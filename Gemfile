@@ -17,6 +17,14 @@ group :development, :test do
   # gem 'spork', '0.9.2'
 end
 
+
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
+group :test do
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -24,6 +32,8 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier', '1.2.3'
 end
+
+
 
 group :test do
   gem 'capybara', '1.1.2'
@@ -38,3 +48,7 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+end
+
+
+
